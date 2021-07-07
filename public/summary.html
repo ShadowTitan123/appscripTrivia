@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+
+    <!-- Google Icons -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+        rel="stylesheet">
+
+    <!-- Main Styles -->
+    <link href="./style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="menu"> <span></span> </div>
+        <nav id="nav">
+            <ul class="main">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="history.html">History</a></li>
+            </ul>
+        </nav>
+        <div class="overlayNav"></div>
+    </header>
+
+    <main class="mainContents pb-0">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-10 col-lg-6 mt-4 mt-lg-0 ml-auto mr-auto ml-lg-auto text-left">
+                    <div class="row">
+                        <div class="col" id="quizz">
+                            <h4 class="mb-4">Here's your Summary</h4>
+
+                            <h5> Hello ,<strong id="name"> </h5>
+
+                            <h4> Question 1 : Who is the best cricketer in the world?</h3>
+                                <strong id="q1"> Answer </strong>
+                                <br>
+                                <h4> Question 2 : What are the colors in the national flag?</h3>
+                                    <strong id="q2"> Answer </strong>
+
+                        </div>
+                    </div>
+                    <br>
+                    <span> <button class="btn btn-primary" id="historybtn" type="button">View All History
+                            <span class="material-icons-outlined"></span></button></span>
+
+                    <span> <button class="btn btn-primary" id="finish" type="button">Finish
+                            <span class="material-icons-outlined"></span></button></span>
+                    <div class="row mt-4">
+                        <div class="col">
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="assets/jquery/jquery-3.0.0.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="nav.js"></script>
+    <script src="js/summary.js"></script>
+</body>
+
+</html>

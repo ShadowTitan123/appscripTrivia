@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+
+  <!-- Google Icons -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+    rel="stylesheet">
+
+  <!-- Main Styles -->
+  <link href="./style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <main class="mainContents homeUser">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-6 m-md-auto ml-lg-0 col-lg-5">
+          <img alt="image" class="img-fluid" src="./assets/images/game_day.svg">
+        </div>
+        <div class="col-12 col-md-10 col-lg-6 mt-4 mt-lg-0 ml-auto mr-auto ml-lg-auto text-left">
+          <div class="row">
+            <div class="col">
+              <h1>Welcome</h1>
+              <p class="lead">What would you like to be called?</p>
+              <p style="color:rgb(108, 118, 209)" id="error1"> </p>
+            </div>
+
+          </div>
+          <div class="row mt-4">
+            <div class="col">
+              <div class="input-group">
+                <input type="text" class="form-control" id="username" placeholder="Enter your name" required>
+                <div class="input-group-append">
+                  <button class="btn btn-primary" id="registerUser" type="button">Next <span
+                      class="material-icons-outlined">navigate_next</span></button>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="assets/jquery/jquery-3.0.0.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="js/home.js"></script>
+</body>
+
+</html>

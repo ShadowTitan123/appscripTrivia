@@ -1,0 +1,6 @@
+CLEARDB_DATABASE_URL: mysql://b5e1d321dc7bd4:c330d770@us-cdbr-east-03.cleardb.com/heroku_eace1ac7b0b4dcb?reconnect=true
+
+heroku config:set DATABASE_URL='mysql://b5e1d321dc7bd4:c330d770@us-cdbr-east-03.cleardb.com/heroku_eace1ac7b0b4dcb?reconnect=true'
+
+
+mysql --host=us-cdbr-east-03.cleardb.com --user=b5e1d321dc7bd4 --password=c330d770 --reconnect heroku_eace1ac7b0b4dcb
